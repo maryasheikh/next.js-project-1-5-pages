@@ -2,10 +2,10 @@ import Link from "next/link";
 
 export default function Navbar() {
     return(
-    <div style= {{display:"flex", justifyContent:"space-evenly", textAlign:"center", color:"white", backgroundColor:"black", fontFamily:"serif"}}>
-
-    <Link href="/">Home</Link>
-    <br/>
+      <div className ="flex justify-evenly text-center  text-white bg-black font-serif font-semibold text-2xl">
+    
+      <Link href="/">Home</Link>
+      <br/>
       <Link href="/about">About</Link>
       <br/>
       <Link href="/jobs">Jobs</Link>
